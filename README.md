@@ -1,6 +1,5 @@
 # Functional-Test-System-for-Arduino-Using-NI-MyDAQ
 Arduino board testing
-Arduino and NI MyDAQ: Power Integrity, Digital I/O, PWM, and Serial Communication Test Project
 
 **Project Overview**
 This project demonstrates my ability to integrate an Arduino Uno with NI MyDAQ hardware, automated through LabVIEW, to perform sequential electronic validation tests of Arduino Microcontroller board.

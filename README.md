@@ -68,4 +68,6 @@ o	Noise Reduction:
   •	Noise Minimization:
   Added a capacitor across AI1 terminals to reduce measurement noise during analog readings.
 
+**Link to Video of Test**
+https://drive.google.com/file/d/1rZgTsooCJWzO4jVS9XjrpOitqfj1HxL4/view?usp=sharing
 

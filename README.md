@@ -30,29 +30,29 @@ o	Noise Reduction:
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	A capacitor was connected across the AI1 positive and negative terminals of NI myDAQ to stabilize readings during analog measurements.  
 
   &nbsp;*2.	Digital I/O Test*  
-  o	LabVIEW (via NI MyDAQ) sends a digital pulse to the Arduino.  
-  o	Arduino detects the incoming pulse and sends a return pulse back to MyDAQ.  
-  o	The response time between sending and receiving the pulse is measured.  
-  o	Arduino’s onboard LED provides a visual confirmation during this test.  
+   &nbsp;&nbsp;&nbsp;&nbsp;o	LabVIEW (via NI MyDAQ) sends a digital pulse to the Arduino.  
+   &nbsp;&nbsp;&nbsp;&nbsp;o	Arduino detects the incoming pulse and sends a return pulse back to MyDAQ.  
+   &nbsp;&nbsp;&nbsp;&nbsp;o	The response time between sending and receiving the pulse is measured.  
+   &nbsp;&nbsp;&nbsp;&nbsp;o	Arduino’s onboard LED provides a visual confirmation during this test.  
 
   &nbsp;*3. PWM Signal Testing*  
-  o	Arduino generates PWM signals with duty cycles of:  
+   &nbsp;&nbsp;&nbsp;&nbsp;o	Arduino generates PWM signals with duty cycles of:  
     	30%  
     	60%  
     	90%  
   o	These PWM signals are monitored through NI MyDAQ Analog Input AI1 (after the 3.3V rail is disconnected).  
 
   &nbsp;*4.	Serial Communication Test*  
-  o	LabVIEW sends a 19-character string via serial communication to Arduino.  
-  o	Arduino reads and echoes the string back to confirm serial communication reliability.  
+   &nbsp;&nbsp;&nbsp;&nbsp;o	LabVIEW sends a 19-character string via serial communication to Arduino.  
+   &nbsp;&nbsp;&nbsp;&nbsp;o	Arduino reads and echoes the string back to confirm serial communication reliability.  
 
 
 **LabVIEW Design Techniques**  
 The LabVIEW program integrates several advanced programming techniques to ensure maintainability, modularity, and scalability:  
-•Event-Driven State Machine (EDSM) architecture  
-•Use of SubVIs for modular code structure  
-•Queues for efficient inter-process communication  
-•Type Definitions (TypeDefs) to ensure consistent data types across the application  
+ &nbsp;&nbsp;&nbsp;&nbsp;•Event-Driven State Machine (EDSM) architecture  
+ &nbsp;&nbsp;&nbsp;&nbsp;•Use of SubVIs for modular code structure  
+ &nbsp;&nbsp;&nbsp;&nbsp;•Queues for efficient inter-process communication  
+ &nbsp;&nbsp;&nbsp;&nbsp;•Type Definitions (TypeDefs) to ensure consistent data types across the application  
 These techniques demonstrate solid software engineering practices and ensure the test system is responsive and easy to extend.  
 
 **Hardware Used**  

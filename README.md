@@ -35,14 +35,14 @@ o	Noise Reduction:
   o	The response time between sending and receiving the pulse is measured.  
   o	Arduino’s onboard LED provides a visual confirmation during this test.  
 
-3.	PWM Signal Testing  
+*3. PWM Signal Testing*  
   o	Arduino generates PWM signals with duty cycles of:  
     	30%  
     	60%  
     	90%  
   o	These PWM signals are monitored through NI MyDAQ Analog Input AI1 (after the 3.3V rail is disconnected).  
 
-4.	Serial Communication Test  
+*4.	Serial Communication Test*
   o	LabVIEW sends a 19-character string via serial communication to Arduino.  
   o	Arduino reads and echoes the string back to confirm serial communication reliability.  
 

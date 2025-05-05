@@ -11,6 +11,7 @@ It showcases a complete and realistic test sequence involving:
 •	Digital I/O Communication and Response Time Measurement  
 •	PWM Signal Generation and Monitoring  
 •	Serial Communication Validation  
+
 All communication between LabVIEW, NI MyDAQ, and Arduino was successfully achieved, overcoming multiple hardware and software challenges.  
 
 **Project Description**  

@@ -49,10 +49,10 @@ The system automatically performs the following tests in sequence:
 
 **LabVIEW Design Techniques**  
  The LabVIEW program integrates several advanced programming techniques to ensure maintainability, modularity, and scalability:  
- &nbsp;&nbsp;&nbsp;&nbsp;•Event-Driven State Machine (EDSM) architecture  
- &nbsp;&nbsp;&nbsp;&nbsp;•Use of SubVIs for modular code structure  
- &nbsp;&nbsp;&nbsp;&nbsp;•Queues for efficient inter-process communication  
- &nbsp;&nbsp;&nbsp;&nbsp;•Type Definitions (TypeDefs) to ensure consistent data types across the application  
+ &nbsp;&nbsp;&nbsp;&nbsp;•Event-Driven State Machine (EDSM) architecture.  
+ &nbsp;&nbsp;&nbsp;&nbsp;•Use of SubVIs for modular code structure.  
+ &nbsp;&nbsp;&nbsp;&nbsp;•Queues for efficient inter-process communication.  
+ &nbsp;&nbsp;&nbsp;&nbsp;•Type Definitions (TypeDefs) to ensure consistent data types across the application.  
  These techniques demonstrate solid software engineering practices and ensure the test system is responsive and easy to extend.  
 
 **Hardware Used**  

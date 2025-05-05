@@ -15,7 +15,7 @@ The system automatically performs the following tests in sequence:
 
 1.	Power Integrity Test (5V and 3.3V Rails)  
   o	5V Rail Test:  
-      	The Arduino’s 5V rail is measured using NI MyDAQ Analog Input AI0.  
+    &nbsp;&nbsp;&nbsp;&nbsp;	The Arduino’s 5V rail is measured using NI MyDAQ Analog Input AI0.  
   o	3.3V Rail Test:  
     	The Arduino’s 3.3V rail is measured using NI MyDAQ Analog Input AI1.  
     	A 5V relay module is used to connect/disconnect the 3.3V line:  

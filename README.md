@@ -40,7 +40,7 @@ The system automatically performs the following tests in sequence:
      &nbsp;&nbsp;&nbsp;&nbsp;	30%  
      &nbsp;&nbsp;&nbsp;&nbsp;	60%  
      &nbsp;&nbsp;&nbsp;&nbsp;	90%  
-  o	These PWM signals are monitored through NI MyDAQ Analog Input AI1 (after the 3.3V rail is disconnected).  
+   &nbsp;&nbsp;&nbsp;&nbsp;o	These PWM signals are monitored through NI MyDAQ Analog Input AI1 (after the 3.3V rail is disconnected).  
 
   &nbsp;*4.	Serial Communication Test*  
    &nbsp;&nbsp;&nbsp;&nbsp;o	LabVIEW sends a 19-character string via serial communication to Arduino.  
@@ -53,7 +53,7 @@ The LabVIEW program integrates several advanced programming techniques to ensure
  &nbsp;&nbsp;&nbsp;&nbsp;•Use of SubVIs for modular code structure  
  &nbsp;&nbsp;&nbsp;&nbsp;•Queues for efficient inter-process communication  
  &nbsp;&nbsp;&nbsp;&nbsp;•Type Definitions (TypeDefs) to ensure consistent data types across the application  
-These techniques demonstrate solid software engineering practices and ensure the test system is responsive and easy to extend.  
+ &nbsp;&nbsp;&nbsp;&nbsp;These techniques demonstrate solid software engineering practices and ensure the test system is responsive and easy to extend.  
 
 **Hardware Used**  
   •	Arduino Uno  

@@ -26,7 +26,7 @@ The system automatically performs the following tests in sequence:
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	The 3.3V line is connected to the Normally Open (NO) contact of the relay.  
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	During the 3.3V rail test, Arduino closes the relay (writing HIGH to the relay control).  
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	After the 3.3V rail test, Arduino opens the relay (writing LOW) to disconnect the 3.3V rail, freeing AI1 for the PWM tests.  
-o	Noise Reduction:  
+ &nbsp;&nbsp;&nbsp;&nbsp;o	Noise Reduction:  
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	A capacitor was connected across the AI1 positive and negative terminals of NI myDAQ to stabilize readings during analog measurements.  
 
   &nbsp;*2.	Digital I/O Test*  
@@ -37,9 +37,9 @@ o	Noise Reduction:
 
   &nbsp;*3. PWM Signal Testing*  
    &nbsp;&nbsp;&nbsp;&nbsp;o	Arduino generates PWM signals with duty cycles of:  
-    	30%  
-    	60%  
-    	90%  
+     &nbsp;&nbsp;&nbsp;&nbsp;	30%  
+     &nbsp;&nbsp;&nbsp;&nbsp;	60%  
+     &nbsp;&nbsp;&nbsp;&nbsp;	90%  
   o	These PWM signals are monitored through NI MyDAQ Analog Input AI1 (after the 3.3V rail is disconnected).  
 
   &nbsp;*4.	Serial Communication Test*  

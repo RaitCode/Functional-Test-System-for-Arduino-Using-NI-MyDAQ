@@ -48,7 +48,7 @@ The system automatically performs the following tests in sequence:
 
 
 **LabVIEW Design Techniques**  
-The LabVIEW program integrates several advanced programming techniques to ensure maintainability, modularity, and scalability:  
+ &nbsp;&nbsp;&nbsp;&nbsp;The LabVIEW program integrates several advanced programming techniques to ensure maintainability, modularity, and scalability:  
  &nbsp;&nbsp;&nbsp;&nbsp;•Event-Driven State Machine (EDSM) architecture  
  &nbsp;&nbsp;&nbsp;&nbsp;•Use of SubVIs for modular code structure  
  &nbsp;&nbsp;&nbsp;&nbsp;•Queues for efficient inter-process communication  

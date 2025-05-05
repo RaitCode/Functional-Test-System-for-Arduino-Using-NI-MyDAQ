@@ -18,9 +18,9 @@ All communication between LabVIEW, NI MyDAQ, and Arduino was successfully achiev
 The system automatically performs the following tests in sequence:  
 
  &nbsp;1. Power Integrity Test (5V and 3.3V Rails)  
-  o	5V Rail Test:  
+   &nbsp;o	5V Rail Test:  
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	The Arduino’s 5V rail is measured using NI MyDAQ Analog Input AI0.  
-  o	3.3V Rail Test:  
+   &nbsp;o	3.3V Rail Test:  
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	The Arduino’s 3.3V rail is measured using NI MyDAQ Analog Input AI1.  
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	A 5V relay module is used to connect/disconnect the 3.3V line:  
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	The 3.3V line is connected to the Normally Open (NO) contact of the relay.  

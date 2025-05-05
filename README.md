@@ -64,7 +64,7 @@ The system automatically performs the following tests in sequence:
   •	Laptop running LabVIEW 2019 or later  
   
 **Software Used**  
-•	LabVIEW (for test automation and NI MyDAQ control)  
+•	LabVIEW and NI MAX (for test automation and NI MyDAQ control)  
 •	Arduino IDE (for firmware development)  
 
 **Key Challenges Overcome**  

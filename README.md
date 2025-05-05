@@ -17,7 +17,7 @@ All communication between LabVIEW, NI MyDAQ, and Arduino was successfully achiev
 **Project Description**  
 The system automatically performs the following tests in sequence:  
 
-1.	Power Integrity Test (5V and 3.3V Rails)  
+ &nbsp;1. Power Integrity Test (5V and 3.3V Rails)  
   o	5V Rail Test:  
     &nbsp;&nbsp;&nbsp;&nbsp;	The Arduino’s 5V rail is measured using NI MyDAQ Analog Input AI0.  
   o	3.3V Rail Test:  

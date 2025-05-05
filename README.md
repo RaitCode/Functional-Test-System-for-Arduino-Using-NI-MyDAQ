@@ -25,7 +25,7 @@ The system automatically performs the following tests in sequence:
 o	Noise Reduction:  
   &nbsp;&nbsp;&nbsp;&nbsp;	A capacitor was connected across the AI1 positive and negative terminals of NI myDAQ to stabilize readings during analog measurements.  
 
-2.	Digital I/O Test  
+*2.	Digital I/O Test*  
   o	LabVIEW (via NI MyDAQ) sends a digital pulse to the Arduino.  
   o	Arduino detects the incoming pulse and sends a return pulse back to MyDAQ.  
   o	The response time between sending and receiving the pulse is measured.  
@@ -45,7 +45,6 @@ o	Noise Reduction:
 
 **LabVIEW Design Techniques**  
 The LabVIEW program integrates several advanced programming techniques to ensure maintainability, modularity, and scalability:  
-
 •Event-Driven State Machine (EDSM) architecture  
 •Use of SubVIs for modular code structure  
 •Queues for efficient inter-process communication  

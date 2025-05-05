@@ -19,15 +19,15 @@ The system automatically performs the following tests in sequence:
 
  &nbsp;1. Power Integrity Test (5V and 3.3V Rails)  
   o	5V Rail Test:  
-    &nbsp;&nbsp;&nbsp;&nbsp;	The Arduino’s 5V rail is measured using NI MyDAQ Analog Input AI0.  
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	The Arduino’s 5V rail is measured using NI MyDAQ Analog Input AI0.  
   o	3.3V Rail Test:  
-    &nbsp;&nbsp;&nbsp;&nbsp;	The Arduino’s 3.3V rail is measured using NI MyDAQ Analog Input AI1.  
-    &nbsp;&nbsp;&nbsp;&nbsp;	A 5V relay module is used to connect/disconnect the 3.3V line:  
-    &nbsp;&nbsp;&nbsp;&nbsp;	The 3.3V line is connected to the Normally Open (NO) contact of the relay.  
-    &nbsp;&nbsp;&nbsp;&nbsp;	During the 3.3V rail test, Arduino closes the relay (writing HIGH to the relay control).  
-    &nbsp;&nbsp;&nbsp;&nbsp;	After the 3.3V rail test, Arduino opens the relay (writing LOW) to disconnect the 3.3V rail, freeing AI1 for the PWM tests.  
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	The Arduino’s 3.3V rail is measured using NI MyDAQ Analog Input AI1.  
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	A 5V relay module is used to connect/disconnect the 3.3V line:  
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	The 3.3V line is connected to the Normally Open (NO) contact of the relay.  
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	During the 3.3V rail test, Arduino closes the relay (writing HIGH to the relay control).  
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	After the 3.3V rail test, Arduino opens the relay (writing LOW) to disconnect the 3.3V rail, freeing AI1 for the PWM tests.  
 o	Noise Reduction:  
-  &nbsp;&nbsp;&nbsp;&nbsp;	A capacitor was connected across the AI1 positive and negative terminals of NI myDAQ to stabilize readings during analog measurements.  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	A capacitor was connected across the AI1 positive and negative terminals of NI myDAQ to stabilize readings during analog measurements.  
 
   &nbsp;*2.	Digital I/O Test*  
   o	LabVIEW (via NI MyDAQ) sends a digital pulse to the Arduino.  

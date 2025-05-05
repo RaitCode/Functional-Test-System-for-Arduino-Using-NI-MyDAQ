@@ -3,6 +3,7 @@ Arduino board testing
 
 **Project Overview**  
 This project demonstrates my ability to integrate an Arduino Uno with NI MyDAQ hardware, automated through LabVIEW, to perform sequential electronic validation tests of Arduino Microcontroller board.  
+
 It showcases a complete and realistic test sequence involving:  
 •	Power Rail Integrity Testing (5V and 3.3V)  
 •	Digital I/O Communication and Response Time Measurement  

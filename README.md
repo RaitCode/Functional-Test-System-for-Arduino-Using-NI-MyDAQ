@@ -42,6 +42,16 @@ o	Noise Reduction:
   o	LabVIEW sends a 19-character string via serial communication to Arduino.
   o	Arduino reads and echoes the string back to confirm serial communication reliability.
 
+
+**LabVIEW Design Techniques**
+The LabVIEW program integrates several advanced programming techniques to ensure maintainability, modularity, and scalability:
+
+Event-Driven State Machine (EDSM) architecture
+Use of SubVIs for modular code structure
+Queues for efficient inter-process communication
+Type Definitions (TypeDefs) to ensure consistent data types across the application
+These techniques demonstrate solid software engineering practices and ensure the test system is responsive and easy to extend.
+
 **Hardware Used**
   •	Arduino Uno
   •	NI MyDAQ

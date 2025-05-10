@@ -82,6 +82,6 @@ The system automatically performs the following tests in sequence:
   Added a capacitor across AI1 terminals to reduce measurement noise during analog readings.  
 
 **📹 Video Demonstration**  
-Watch the project in action  
-https://drive.google.com/file/d/1ziAwUKtGCjyQT7CLR4hDDZM2Nt8y2qRj/view?usp=sharing 
+Hardware Setup:
+Watch the project in action: https://drive.google.com/file/d/1ziAwUKtGCjyQT7CLR4hDDZM2Nt8y2qRj/view?usp=sharing
 

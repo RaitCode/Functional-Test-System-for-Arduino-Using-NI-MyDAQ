@@ -83,5 +83,5 @@ The system automatically performs the following tests in sequence:
 
 **📹 Video Demonstration**  
 Hardware Setup:  
-Watch the project in action: https://drive.google.com/file/d/1ziAwUKtGCjyQT7CLR4hDDZM2Nt8y2qRj/view?usp=sharing
+Watch the project in action: https://drive.google.com/file/d/1TPXvxHDBPi6YRtS_AMUW9Qr9W78vY-Af/view?usp=sharing
 

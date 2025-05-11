@@ -4,7 +4,7 @@ const int ledPin = 13;      // Built-in LED on Arduino board
 const int pwmPin = 9;       // PWM output pin
 const int relayPin = 4;       // Relay signal pin
 const float referenceVolts = 5.0; //the default reference 0n a 5-volt board
-const int batteryPin = A0; 
+const int analogSigPin = A0; 
 
 int startDIOtest = 0;
 int StartSCtest = 0;
@@ -16,7 +16,7 @@ int counter = 0;
 
 void setup() {
   pinMode(outputPin, OUTPUT);
-  pinMode(batteryPin, INPUT);
+  pinMode(analogSigPin, INPUT);
   pinMode(inputPin, INPUT);
   pinMode(ledPin, OUTPUT);
   pinMode(pwmPin, OUTPUT);
@@ -31,9 +31,9 @@ void loop() {
   int receivedSignal = digitalRead(inputPin);
 
   
-  if (analogRead(batteryPin) >= 500 && counter == 0) {
+  if (analogRead(analogSigPin) >= 500 && counter == 0) {
     counter += 1;
-    digitalWrite(relayPin, HIGH);   // Send HIGH signal to close array
+    digitalWrite(relayPin, HIGH);   // Send HIGH signal to close relay
     delay(2500);
     }
     
@@ -73,7 +73,7 @@ void loop() {
 
   // ===== PWM TEST 30% =====
 //  if (digitalRead(inputPin) == HIGH && startDIOtest == 1 && StartSCtest == 1 && StartPWM30test == 0) {
-  if (analogRead(batteryPin) >= 500 && startDIOtest == 1 && StartPWM30test == 0 && counter == 1) {
+  if (analogRead(analogSigPin) >= 500 && startDIOtest == 1 && StartPWM30test == 0 && counter == 1) {
     //Serial.println("PWM 30%");
     analogWrite(pwmPin, 77); // ~30% duty
     delay(1000);
@@ -85,7 +85,7 @@ void loop() {
 
   // ===== PWM TEST 60% =====
 //  if (digitalRead(inputPin) == HIGH && startDIOtest == 1 && StartPWM30test == 1 && StartPWM60test == 0) {
-  if (analogRead(batteryPin) >= 500 && startDIOtest == 1 && StartPWM30test == 1 && StartPWM60test == 0 && counter == 1) {
+  if (analogRead(analogSigPin) >= 500 && startDIOtest == 1 && StartPWM30test == 1 && StartPWM60test == 0 && counter == 1) {
     analogWrite(pwmPin, 153); // ~60% duty
     StartPWM60test = 1;
     while (analogRead(batteryPin)>= 900) {
@@ -95,7 +95,7 @@ void loop() {
 
   // ===== PWM TEST 90% =====
 //  if (digitalRead(inputPin) == HIGH && StartPWM60test == 1 && StartPWM90test == 0) {
-  if (analogRead(batteryPin) >= 500 && startDIOtest == 1 && StartPWM30test == 1 && StartPWM60test == 1 && StartPWM90test == 0 && counter == 1) {
+  if (analogRead(analogSigPin) >= 500 && startDIOtest == 1 && StartPWM30test == 1 && StartPWM60test == 1 && StartPWM90test == 0 && counter == 1) {
     //Serial.println("PWM 90%");
     analogWrite(pwmPin, 230); // ~90% duty
     StartPWM90test = 1;

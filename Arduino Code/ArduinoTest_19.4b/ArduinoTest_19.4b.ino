@@ -1,3 +1,5 @@
+// Written by Nwokeji, public domain
+
 const int outputPin = 8;    // Arduino digital output to NI myDAQ
 const int inputPin = 7;     // Arduino digital input from NI myDAQ
 const int ledPin = 13;      // Built-in LED on Arduino board
